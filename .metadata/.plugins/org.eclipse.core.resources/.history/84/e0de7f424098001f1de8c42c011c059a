@@ -1,0 +1,19 @@
+package Array;
+
+public class ArrNote {
+
+	public static void main(String[] args) {
+		
+		int[] numArr = {10, 20, 30, 40, 50};
+		// 문제1
+		
+		int cnt = 0;
+		while (cnt <= 4) {
+			if ((numArr[cnt] / 4) == 0) {
+				System.out.println(numArr[cnt]);
+			}
+		}
+		
+	}
+
+}
