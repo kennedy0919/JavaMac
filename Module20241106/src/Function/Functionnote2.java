@@ -52,7 +52,7 @@ public class Functionnote2 {
 		int sit = input.nextInt();
 		int pay = dist(dist) + train(train) + sit(sit);
 		
-		System.out.println("총 가격은" + pay + "원 입니다.");
+		System.out.println("총 가격은 " + pay + "원 입니다.");
 	}
 
 }
