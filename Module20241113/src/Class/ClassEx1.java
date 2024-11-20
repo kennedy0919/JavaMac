@@ -16,7 +16,7 @@ class NaverJoin {
 }
 
 public class ClassEx1 {
-
+	
 	public static void main(String[] args) {
 		// 배열을 이용해서 내가 만든 클래스를 저장 할 때
 		// 데이터를 저장하는 변수를 먼저 생성을 해여된다.
@@ -31,7 +31,9 @@ public class ClassEx1 {
 		
 		System.out.println(list1[0].name);
 		
-		
+		for (int i = 0; i < list1.length; i++) {
+			list1[i] = new Student();
+		}
 		
 		
 //		Account acc1 = new Account();

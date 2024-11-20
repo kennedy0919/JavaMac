@@ -3,8 +3,20 @@ package Class;
 public class ClassEx3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		// 프로그램에서 메모리의 생성 과정
+		// 컴파일 (프로그램이 실행 전에 메모리가 생성)
+		// 스택 Stack (미리 생성이 되어있다.) 메모리 할
+		
+		// 런타임 (프로그램이 실행하고 나서 메모리를 생성)
+		// heap 힙 영역 (그때 그때마다 생성)
+		// 변수명을 그때 그때 마다 바로 생성을 할 수 없다.
+		// new ㅡㄹㄹ 이용해서 그때마다 생성을 하면 메모리의 주소값을
+		// 보내준다.
+		
+		// 메모리는 공간이 정해져 있기 땨뮨애 무한정 공간을 생성할 수 없다.
+	
+		
 	}
 
 }
